@@ -1,8 +1,6 @@
-Pokemon Project doc 
+#  Pokédex Project 
 
-## -- Consigne --
-
-### Prérequis :
+## Prérequis :
 
 - M'envoyer un lien Github vers le projet à robin.lebhar@gmail.com avant le 28 MAI minuit (2024) : (en objet inscrire PROG_WEB:Nom Prénom/Nom Prenom)
 
@@ -12,13 +10,13 @@ Pokemon Project doc
 
 - Utiliser React router
 
-### Spécifications :
+## Spécifications :
 
-#### Général
+### Général
 
 - L'application contient un home page (route "/") ,une page détail ("/pokemon/:id") et une page 404
 
-#### Page d'accueil
+### Page d'accueil
 
 - La home page affiche la liste des 151 pokémons sous forme de card
 
@@ -32,9 +30,9 @@ Pokemon Project doc
 
 - Si aucun pokemon n'est trouvé, afficher "Aucun résultat pour la recherche "'Ma recherche'"
 
-#### Page de détail
+### Page de détail
 
-##### Détail d'un pokémon
+#### Détail d'un pokémon
 
 - La page de détail permet d'accéder à la fiche détaillée d'un pokémon.
 
@@ -45,7 +43,7 @@ Pokemon Project doc
 - J'affiche au choix les stats sous forme de progress bar, ou sinon au format texte  => value/maxValue (taux de remplissage en pourcentage)
  Ex : 20/200 - (10%)
 
-##### Reviews
+#### Reviews
 
 - La page de détail contient un icone qui permet de liker le pokémon et d'augmenter son nombre de like de 1
   
@@ -58,7 +56,7 @@ Pokemon Project doc
 - Par défaut une review soumise en soumise avec l'auteur "Me"
 
 
-### -- Marquer des points ---
+##  Marquer des points
 
 - Réfléchir à l'architecture et découper en composants et module.css
 
