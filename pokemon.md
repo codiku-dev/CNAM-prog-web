@@ -34,9 +34,19 @@ Pokemon Project doc
 
 - La page de détail d'un pokémon charge les info du pokémon et les affiches (image, nom, stats et badges de type)
 
-- J'affiche les stats sous forme de progress bar, ou sinon au format value/maxValue (taux de remplissage en pourcentage)
+- J'affiche au choix les stats sous forme de progress bar, ou sinon au format texte  => value/maxValue (taux de remplissage en pourcentage)
+ Ex : 20/200 - (10%)
 
-- Ex : 20/200 - (10%)
+- La page de détail contient un icone qui permet de liker le pokémon et d'augmenter son nombre de like de 1
+  
+- La page de détail affiche l'ensemble des review de ce pokémon
+
+- Un review affiche le contenu et l'auteur
+
+- Il est possible d'ajouter une review via une input ( max 100 caractères). La review est  soumise en tappant sur la touche ENTER.
+
+- Par défaut une review soumise en soumise avec l'auteur "Me"
+
 
 ### -- Marquer des points ---
 
