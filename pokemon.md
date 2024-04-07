@@ -42,8 +42,10 @@
 
 - La page de détail d'un pokémon charge les info du pokémon et les affiches (image, nom, stats et badges de type)
 
-- J'affiche au choix les stats sous forme de progress bar, ou sinon au format texte  => value/maxValue (taux de remplissage en pourcentage)
- Ex : 20/200 - (10%)
+- J'affiche les stats sous forme de progress bar. Afficher un pourcentage coloré de la progress bar en vous basant sur les valeurs maximum possible pour chaque stats  voir : 
+```js
+MAX_STAT
+``` 
 
 #### Reviews
 
