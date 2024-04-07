@@ -64,15 +64,17 @@
 
 - Tout est nommé en anglais
 
-- J'ai laissé un petit commentaire en anglais pour rapidement expliquer ce que fais ce composant
+- Laisser un petit commentaire en anglais pour rapidement expliquer ce que fait un composant
 
 Ex:
-/_
+```jsx
+/* 
 Display this app logo and redirect to the home page when clicked on.
-_/
+*/
 const Header = () => {
 return <> ...</>
 }
+```
 
 - Bien séparer la partie "api"
 
