@@ -137,8 +137,8 @@ npx json-server db.json --port 3001
 ```
 
 ### Endpoints
-**
-Fetch all the pokemons** (METHOD GET) : http://localhost:3001/pokemons
+
+**Fetch all the pokemons** (METHOD GET) : http://localhost:3001/pokemons
 
 **Fetch a single pokemon** (METHOD GET): http://localhost:3001/pokemons/<pokemon id>
 
