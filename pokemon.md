@@ -2,6 +2,8 @@ Pokemon Project doc
 
 ## -- Consigne --
 
+### Prérequis :
+
 - M'envoyer un lien Github vers le projet à robin.lebhar@gmail.com avant le 28 MAI minuit (2024) : (en objet inscrire PROG_WEB:Nom Prénom/Nom Prenom)
 
 - Créer une app react + vite, javascript uniquement.
@@ -10,7 +12,7 @@ Pokemon Project doc
 
 - Utiliser React router
 
-- Développer l'application dont les spécifications sont les suivantes :
+### Spécifications :
 
 - L'application contient un home page (route "/") ,une page détail ("/pokemon/:id") et une page 404
 
