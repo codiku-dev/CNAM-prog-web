@@ -172,11 +172,12 @@ export const PKMN_TYPES = Object.freeze([
 { name: "unknown", color: "#68A090" },
 { name: "shadow", color: "#705898" },
 ]);
-
+```
 
 #### Max and min stats
 
-//  (minimum being 0)
+```js
+// (minimum being 0)
 
 export const MAX_STAT = {
 attack: 130,
