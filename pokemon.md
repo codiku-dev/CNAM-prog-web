@@ -105,3 +105,110 @@ return <> ...</>
 - Bonus on peut filtrer les pokemon en tappant leurs nom OU en tappant leurs type ex: "poison"
 - Bonus : Ecrire des commits propres en conventional commit
 
+
+## Api doc
+
+# Documentation
+
+## Images
+
+To fetch an image by the pokemon id :
+
+raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/<id du pokemon>.svg
+
+Ex : raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg
+
+## Api
+
+### Mise en place du fake back-end
+
+Ajoutr db.json à la racine du projet
+
+#### Installer json-server
+
+```bash
+npm i json-server --save-dev
+```
+
+#### Démarrer json server 
+
+```bash
+npx json-server db.json --port 3001
+```
+
+### Endpoints
+**
+Fetch all the pokemons** (METHOD GET) : http://localhost:3001/pokemons
+
+**Fetch a single pokemon** (METHOD GET): http://localhost:3001/pokemons/<pokemon id>
+
+**Update a pokemon** (METHOD PATCH) : http://localhost:3001/pokemons/<pokemon id>
+
+Example of body :
+```js
+"{
+like: 12
+}"
+```
+
+(Becarefull body as to be **JSON.Stringify** with the method fetch)
+
+**Fetch  a all the pokemon reviews** (METHOD GET) : http://localhost:3001/reviews/?pokemonId=<pokemonID>
+
+**Add a review **(METHOD POST) : http://localhost:3001/reviews/
+
+Example of body :
+```js
+"{
+pokemonId: 12
+author: "robin",
+content: "This is a review"
+}"
+```
+
+(Becarefull body as to be JSON.Stringify with the method POST)
+
+## Utilities
+
+### Types and colors mapping
+
+```js
+export const PKMN_TYPES = Object.freeze([
+{ name: "normal", color: "#A8A77A" },
+{ name: "fighting", color: "#C22E28" },
+{ name: "flying", color: "#A98FF3" },
+{ name: "poison", color: "#A33EA1" },
+{ name: "ground", color: "#E2BF65" },
+{ name: "rock", color: "#B6A136" },
+{ name: "bug", color: "#A6B91A" },
+{ name: "ghost", color: "#735797" },
+{ name: "steel", color: "#B7B7CE" },
+{ name: "fire", color: "#EE8130" },
+{ name: "water", color: "#6390F0" },
+{ name: "grass", color: "#7AC74C" },
+{ name: "electric", color: "#F7D02C" },
+{ name: "psychic", color: "#F95587" },
+{ name: "ice", color: "#96D9D6" },
+{ name: "dragon", color: "#6F35FC" },
+{ name: "dark", color: "#705746" },
+{ name: "fairy", color: "#D685AD" },
+{ name: "unknown", color: "#68A090" },
+{ name: "shadow", color: "#705898" },
+]);
+```
+
+### Max and min stats
+
+```js
+// (minimum being 0)
+
+export const MAX_STAT = {
+attack: 130,
+defense: 180,
+specialAttack: 135,
+specialDefense: 120,
+speed: 120,
+hp: 105,
+};
+
+```
