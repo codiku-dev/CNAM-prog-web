@@ -87,7 +87,6 @@ return <> ...</>
 - Ecrire des fonctions pures
 
 - Découper la logique au sein des composants en sous fonctions pour avoir un return lisible et facilement modifiable
-- Sans over découper non plus
 
 - Utiliser les fichiers de config pour stocker les enpoints
 
@@ -105,9 +104,11 @@ return <> ...</>
 
 - Le .README explique comment installer et lancer l'application.
 
+- J'écris des commit en utilisant des conventional commit
+
 - Bonus : responsive
 - Bonus on peut filtrer les pokemon en tappant leurs nom OU en tappant leurs type ex: "poison"
-- Bonus : Ecrire des commits propres en conventional commit
+
 
 
 ## Api doc
