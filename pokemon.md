@@ -119,9 +119,9 @@ return <> ...</>
 
 To fetch an image by the pokemon id :
 
-raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/<id du pokemon>.svg
+raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/IdDuPokemon.svg
 
-Ex : raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg
+Ex : raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/**1.svg**
 
 ## Api
 
