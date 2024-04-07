@@ -41,8 +41,10 @@
 - Au clic sur une card dans le home page je suis redirigé vers la page de détail d'un pokemon
 
 - La page de détail d'un pokémon charge les info du pokémon et les affiches (image, nom, stats et badges de type)
+,
+- J'affiche les stats sous forme de progress bar. Afficher un pourcentage coloré de la progress bar en vous basant sur les valeurs maximum possible pour chaque stats,
 
-- J'affiche les stats sous forme de progress bar. Afficher un pourcentage coloré de la progress bar en vous basant sur les valeurs maximum possible pour chaque stats  voir : 
+voir : 
 ```js
 MAX_STAT
 ``` 
