@@ -147,7 +147,12 @@ npx json-server db.json --port 3001
 
 **Fetch a single pokemon** (METHOD GET): http://localhost:3001/pokemons/monIdDePokemon
 
+ex : http://localhost:3001/pokemons/10
+
 **Update a pokemon** (METHOD PATCH) : http://localhost:3001/pokemons/monIdDePokemon
+
+ex :  http://localhost:3001/pokemons/12
+
 Example of body :
 ```js
 "{
@@ -158,6 +163,8 @@ like: 12
 (Becarefull body as to be **JSON.Stringify** with the method fetch)
 
 **Fetch  a all the pokemon reviews** (METHOD GET) : http://localhost:3001/reviews/?pokemonId=monIdDePokemon
+
+ex : http://localhost:3001/reviews/?pokemonId=12
 
 **Add a review **(METHOD POST) : http://localhost:3001/reviews/
 
