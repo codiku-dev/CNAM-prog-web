@@ -8,6 +8,8 @@
 
 - L'app doit tourner sur le port 3000
 
+- Le fake server doit tourner sur le port 3001
+
 - Utiliser React router
 
 ## Spécifications :
@@ -83,13 +85,11 @@ return <> ...</>
 - Découper la logique au sein des composants en sous fonctions pour avoir un return lisible et facilement modifiable
 - Sans over découper non plus
 
-- Utiliser les fichiers d'env pour stocker les enpoints
+- Utiliser les fichiers de config pour stocker les enpoints
 
 - Pas de warning / erreur dans la console.
 
 - Gérer les erreurs de nos api
-
-- Afficher un message lors des chargements
 
 - Bien nommer ses composants et ses fichiers en respectant les standards vue en cours
 
@@ -97,115 +97,11 @@ return <> ...</>
 
 - Mes if ,else, switch, boucles etc ont des accolades ouvrante et fermantes (je pense au prochain dev qui veut ajouter une ligne de code)
 
-- Un accès au lien direct d'une page devrait fonctionner et devrait requeter uniquement le contenu nécéssaire
-
 - Le github ne contient que le code source, pas les nodes modules
 
 - Le .README explique comment installer et lancer l'application.
 
 - Bonus : responsive
 - Bonus on peut filtrer les pokemon en tappant leurs nom OU en tappant leurs type ex: "poison"
-- Bonus : Ecrire des commit propres en conventional commit
+- Bonus : Ecrire des commits propres en conventional commit
 
-# Documentation
-
-## Images
-
-To fetch an image by the pokemon id :
-
-raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/<id du pokemon>.svg
-
-Ex : raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg
-
-## Api
-
-### Set up the fake backend
-
-You need a fake server running.
-
-Find db.json , add it at the root of the project.
-
-Install json-server by running
-
-npm i json-server --save-dev
-
-At the project's root run the fake server on the port 3001 :
-
-npx json-server db.json --port 3001
-
-### Api
-
-Fetch all the pokemons (METHOD GET) : http://localhost:3001/pokemons
-
-Fetch a single pokemon (METHOD GET): http://localhost:3001/pokemons/<pokemon id>
-
-Update a pokemon (METHOD PATCH) :
-http://localhost:3001/pokemons/<pokemon id>
-
-Example of body :
-
-"{
-like: 12
-}"
-
-(Becarefull body as to be JSON.Stringify with the method fetch)
-
-
-Fetch  a all the pokemon reviews (METHOD GET) : http://localhost:3001/reviews/?pokemonId=<pokemonID>
-
-Add a review (METHOD POST) : http://localhost:3001/reviews/
-
-Example of body :
-
-"{
-pokemonId: 12
-author: "robin",
-content: "This is a review"
-}"
-
-(Becarefull body as to be JSON.Stringify with the method fetch)
-
-### Utilities
-
-#### Types and colors mapping
-
-```js
-export const PKMN_TYPES = Object.freeze([
-{ name: "normal", color: "#A8A77A" },
-{ name: "fighting", color: "#C22E28" },
-{ name: "flying", color: "#A98FF3" },
-{ name: "poison", color: "#A33EA1" },
-{ name: "ground", color: "#E2BF65" },
-{ name: "rock", color: "#B6A136" },
-{ name: "bug", color: "#A6B91A" },
-{ name: "ghost", color: "#735797" },
-{ name: "steel", color: "#B7B7CE" },
-{ name: "fire", color: "#EE8130" },
-{ name: "water", color: "#6390F0" },
-{ name: "grass", color: "#7AC74C" },
-{ name: "electric", color: "#F7D02C" },
-{ name: "psychic", color: "#F95587" },
-{ name: "ice", color: "#96D9D6" },
-{ name: "dragon", color: "#6F35FC" },
-{ name: "dark", color: "#705746" },
-{ name: "fairy", color: "#D685AD" },
-{ name: "unknown", color: "#68A090" },
-{ name: "shadow", color: "#705898" },
-]);
-```
-
-#### Max and min stats
-
-```js
-// (minimum being 0)
-
-export const MAX_STAT = {
-attack: 130,
-defense: 180,
-specialAttack: 135,
-specialDefense: 120,
-speed: 120,
-hp: 105,
-};
-
-```
