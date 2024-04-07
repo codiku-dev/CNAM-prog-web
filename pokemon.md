@@ -147,6 +147,8 @@ content: "This is a review"
 
 ### Utilities
 
+#### Types and colors mapping
+
 ```js
 export const PKMN_TYPES = Object.freeze([
 { name: "normal", color: "#A8A77A" },
@@ -172,8 +174,9 @@ export const PKMN_TYPES = Object.freeze([
 ]);
 
 
-// Maxium possible value for each stats (minimum being 0)
+#### Max and min stats
 
+//  (minimum being 0)
 
 export const MAX_STAT = {
 attack: 130,
