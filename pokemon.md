@@ -59,7 +59,7 @@ MAX_STAT
 
 - Il est possible d'ajouter une review via une input ( max 100 caractères). La review est  soumise en tappant sur la touche ENTER.
 
-- Par défaut une review soumise en soumise avec l'auteur "Me"
+- Par défaut une review est soumise par l'auteur "Me"
 
 
 ##  Marquer des points
