@@ -26,7 +26,7 @@ Pokemon Project doc
 
 - La home page contient une input qui permet de filter les pokémon par leurs noms (se déclenche à chaque lettre tappé , pas de bouton)
 
-- Si aucun pokemon n'est trouvé, afficher "Aucun résultat pour la recherche "<ma recherche>"
+- Si aucun pokemon n'est trouvé, afficher "Aucun résultat pour la recherche "'Ma recherche'"
 
 - La page de détail permet d'accéder à la fiche détaillée d'un pokémon.
 
