@@ -14,7 +14,11 @@ Pokemon Project doc
 
 ### Spécifications :
 
+#### Général
+
 - L'application contient un home page (route "/") ,une page détail ("/pokemon/:id") et une page 404
+
+#### Page d'accueil
 
 - La home page affiche la liste des 151 pokémons sous forme de card
 
@@ -28,6 +32,10 @@ Pokemon Project doc
 
 - Si aucun pokemon n'est trouvé, afficher "Aucun résultat pour la recherche "'Ma recherche'"
 
+#### Page de détail
+
+##### Détail d'un pokémon
+
 - La page de détail permet d'accéder à la fiche détaillée d'un pokémon.
 
 - Au clic sur une card dans le home page je suis redirigé vers la page de détail d'un pokemon
@@ -36,6 +44,8 @@ Pokemon Project doc
 
 - J'affiche au choix les stats sous forme de progress bar, ou sinon au format texte  => value/maxValue (taux de remplissage en pourcentage)
  Ex : 20/200 - (10%)
+
+##### Reviews
 
 - La page de détail contient un icone qui permet de liker le pokémon et d'augmenter son nombre de like de 1
   
