@@ -147,6 +147,7 @@ content: "This is a review"
 
 ### Utilities
 
+```js
 export const PKMN_TYPES = Object.freeze([
 { name: "normal", color: "#A8A77A" },
 { name: "fighting", color: "#C22E28" },
@@ -170,7 +171,9 @@ export const PKMN_TYPES = Object.freeze([
 { name: "shadow", color: "#705898" },
 ]);
 
+
 // Maxium possible value for each stats (minimum being 0)
+
 
 export const MAX_STAT = {
 attack: 130,
@@ -181,4 +184,4 @@ speed: 120,
 hp: 105,
 };
 
-
+```
