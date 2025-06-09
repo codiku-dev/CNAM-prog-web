@@ -6,7 +6,7 @@
 
 ## Prérequis :
 
-- M'envoyer un lien Github (public) vers le projet à robin.lebhar@gmail.com avant le 28 MAI minuit (2024) : (en objet inscrire PROG_WEB:Nom/Prenom)
+- M'envoyer un lien Github (public) vers le projet à robin.lebhar@gmail.com avant le 28 MAI minuit (2024) : (en objet inscrire REACT:Nom-Prenom/ Nom-Prenom)
 
 - Créer une app react + vite, javascript uniquement.
 
