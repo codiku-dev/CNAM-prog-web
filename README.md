@@ -1,8 +1,3 @@
-# CNAM prog web
-
-https://docs.google.com/document/d/12qwCBAx5Pds3C8Mq9ysw3FrTeCNa3CuSRk6wv8WMScs/edit?usp=sharing
-
-
 #  Pokédex Project 
 
 <img width="1792" alt="Screenshot 2024-04-07 at 14 07 47" src="https://github.com/codiku-dev/CNAM-prog-web/assets/111140836/181d6b8a-edfb-4e28-8304-9c7a4bbbddb1">
