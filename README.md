@@ -72,9 +72,9 @@ MAX_STAT
 
 - Réfléchir à l'architecture et découper en composants et module.css
 
-- Ce qui est constant devrait aller dans constant.js, routes, constantes.
+- Ce qui est constant devrait aller dans constant.js ( routes, constantes), idem pour les api.
 
-- Tout est nommé en anglais
+- Tout est nommé en anglais et bien nommé !
 
 - Laisser un petit commentaire en anglais pour rapidement expliquer ce que fait un composant
 
