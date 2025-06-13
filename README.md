@@ -6,7 +6,7 @@
 
 ## Prérequis :
 
-- M'envoyer un lien Github (public) vers le projet à robin.lebhar@gmail.com avant le ________ : (en objet inscrire REACT:Nom-Prenom/ Nom-Prenom)
+- M'envoyer un lien Github (public) vers le projet à robin.lebhar@gmail.com avant le 30 juin 2025 Minuit : (en objet inscrire CEFIM-Pokedex/Nom-Prenom/Nom-Prenom)
 
 - Créer une app react + vite, javascript uniquement.
 
