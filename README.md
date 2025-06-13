@@ -110,10 +110,10 @@ return <> ...</>
 
 - Le .README explique comment installer et lancer l'application.
 
-- J'écris des commit en utilisant des conventional commit
+- J'écris des commits en utilisant des conventionals commits
 
 - Bonus : responsive
-- Bonus on peut filtrer les pokemon en tappant leurs nom OU en tappant leurs type ex: "poison"
+- Bonus on peut aussi filtrer les pokemon en tappant un type ex: "poison"
 
 
 
@@ -175,7 +175,7 @@ like: 12
 
 ex : http://localhost:3001/reviews/?pokemonId=12
 
-**Add a review **(METHOD POST) : http://localhost:3001/reviews/
+**Add a review** (METHOD POST) : http://localhost:3001/reviews/
 
 Example of body :
 ```js
