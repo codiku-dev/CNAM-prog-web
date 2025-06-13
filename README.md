@@ -102,7 +102,7 @@ return <> ...</>
 
 - Bien nommer ses composants et ses fichiers en respectant les standards vue en cours
 
-- Bien nommer ses variables ,fonctions, fichiers et dossier comme vue en TP
+- Bien nommer ses variables ,fonctions, fichiers et dossiers comme vu en TP
 
 - Mes if ,else, switch, boucles etc ont des accolades ouvrante et fermantes (je pense au prochain dev qui veut ajouter une ligne de code)
 
