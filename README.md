@@ -94,7 +94,7 @@ return <> ...</>
 
 - Découper la logique au sein des composants en sous fonctions pour avoir un return lisible et facilement modifiable
 
-- Utiliser les fichiers de config pour stocker les enpoints
+- Utiliser les fichiers d'env pour stocker les endpoints
 
 - Pas de warning / erreur dans la console.
 
