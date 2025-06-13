@@ -72,7 +72,7 @@ MAX_STAT
 
 - Réfléchir à l'architecture et découper en composants et module.css
 
-- Ce qui est constant devrait aller dans constant.js ( routes, constantes), idem pour les api.
+- Ce qui est constant devrait aller dans constant/ ( routes, constantes), ce qui est relatif aux api dans api/ etc...
 
 - Tout est nommé en anglais et bien nommé !
 
