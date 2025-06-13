@@ -143,9 +143,12 @@ npm i json-server --save-dev
 
 #### Démarrer json server 
 
+(on crééra un alias "server" dans le package.json pour cette commande pour que je n'ai qu'a lancé "npm run server" pour le démarrer :
+
 ```bash
 npx json-server db.json --port 3001
 ```
+
 
 ### Endpoints
 
