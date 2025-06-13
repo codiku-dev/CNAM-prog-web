@@ -1,7 +1,7 @@
 #  Pokédex Project 
 
 <img width="1792" alt="Screenshot 2024-04-07 at 14 07 47" src="https://github.com/codiku-dev/CNAM-prog-web/assets/111140836/181d6b8a-edfb-4e28-8304-9c7a4bbbddb1">
-<img width="1792" alt="Screenshot 2024-04-07 at 14 08 01" src="https://github.com/codiku-dev/CNAM-prog-web/assets/111140836/1ddf65c6-f06d-4bb0-b9b5-420bedf43ddb">
+<img width="1792" alt="Screenshot 2024-04-07 at 14 08 01" src="screen-detail.png">
 <img width="1792" alt="Screenshot 2024-04-07 at 14 07 54" src="https://github.com/codiku-dev/CNAM-prog-web/assets/111140836/2eed0ee8-76b7-4c38-810e-2603cea5db16">
 
 ## Prérequis :
